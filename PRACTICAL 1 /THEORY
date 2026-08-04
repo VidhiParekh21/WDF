@@ -1,0 +1,91 @@
+2. Detailed Practical List
+Practical 1: Project Initiation, Requirement Analysis, Sitemap, Wireframe, and GitHub Setup
+Problem Definition:
+ Initiate the semester-long StudentHub portal by identifying the problem
+scope, user roles, key modules, navigation flow, and minimum 10 pages.
+Create a sitemap, low-fidelity wireframe, project folder structure,
+README file, and GitHub repository.	
+StudentHub Portal
+1. Problem Scope
+Problem Statement
+College students often use different platforms to access attendance, timetables, assignments, academic calendars, announcements, and study materials. This makes it difficult to manage academic information efficiently.
+StudentHub is a centralized web portal where students can access all academic services from one platform after logging in.
+Objectives
+•	Provide one dashboard for all student services. 
+•	Easy navigation between modules. 
+•	Reduce paperwork. 
+•	Improve communication between students and faculty. 
+•	Store academic information digitally.
+2. User Roles
+User Role	Responsibilities
+Student	View attendance, timetable, assignments, profile, study materials, announcements
+Faculty	Upload attendance, assignments, notices, study notes
+Admin	Manage students, faculty, announcements, academic calendar, portal maintenance
+
+
+3. Key Modules
+1.	Login 
+2.	Dashboard 
+3.	Student Profile 
+4.	Attendance 
+5.	Timetable 
+6.	Assignments 
+7.	Academic Calendar 
+8.	Announcements 
+9.	Q&A Forum 
+10.	Contact Us 
+11.	Logout
+
+4. Navigation Flow
+Login
+   │
+   ▼
+Dashboard
+   ├── Profile
+   ├── Attendance
+   ├── Timetable
+   ├── Assignments
+   ├── Academic Calendar
+   ├── Announcements
+   ├── Q&A Forum
+   ├── Contact Us
+   └── Logout
+
+
+
+
+
+5. Minimum 10 Pages
+Page	Purpose
+Login	Student authentication
+Home/Dashboard	Main navigation page
+Profile	Student personal details
+Attendance	View attendance percentage
+Timetable	Weekly class schedule
+Assignments	View assignments
+Academic Calendar	Semester events
+Announcements	College notices
+Q&A Forum	Ask academic questions
+Contact Us	Contact administration
+Logout	Exit portal
+
+
+6. Sitemap
+
+StudentHub
+│
+├── Login
+│
+└── Dashboard
+      │
+      ├── Profile
+      ├── Attendance
+      ├── Timetable
+      ├── Assignments
+      ├── Academic Calendar
+      ├── Announcements
+      ├── Study Notes
+      ├── Q&A Forum
+      ├── Contact Us
+      └── Logout	
+
