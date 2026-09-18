@@ -1,0 +1,148 @@
+/* ==============================
+   STUDENTHUB COMMON STYLES
+   ============================== */
+
+/* Hamburger Navbar */
+.studenthub-navbar {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 1000;
+}
+
+.studenthub-navbar .navbar-brand {
+    color: rgb(7, 60, 107);
+    font-weight: bold;
+}
+
+.studenthub-navbar a {
+    color: rgb(7, 60, 107);
+    text-decoration: none;
+}
+
+.studenthub-navbar a:hover {
+    color: #0d6efd;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode .card {
+    background-color: #1f1f1f !important;
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode p,
+body.dark-mode label,
+body.dark-mode td,
+body.dark-mode th {
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode .text-muted {
+    color: #bbbbbb !important;
+}
+
+body.dark-mode .table {
+    --bs-table-bg: #1f1f1f;
+    --bs-table-color: #f1f1f1;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #2b2b2b;
+    color: white;
+    border-color: #555;
+}
+
+body.dark-mode .studenthub-navbar {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .studenthub-navbar .navbar-brand,
+body.dark-mode .studenthub-navbar a {
+    color: white;
+}
+
+/* Notification Banner */
+.studenthub-notification {
+    margin: 15px auto;
+    max-width: 1000px;
+}
+
+/* FAQ */
+.faq-question {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    background-color: white;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+/* Content Slider */
+.studenthub-slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.slider-content {
+    display: none;
+    padding: 35px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.slider-content.active {
+    display: block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .studenthub-navbar {
+        padding: 10px;
+    }
+
+    .studenthub-navbar .menu-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .studenthub-navbar .menu-links.show {
+        display: flex;
+    }
+
+    .studenthub-navbar .menu-links a {
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+
+    .slider-content {
+        padding: 20px;
+    }
+}
