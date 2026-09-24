@@ -1,0 +1,576 @@
+/* ==============================
+   STUDENTHUB COMMON STYLES
+   ============================== */
+
+
+/* ==============================
+   Hamburger Navbar
+   ============================== */
+
+.studenthub-navbar {
+
+    background-color: white;
+
+    padding: 10px 20px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    position: relative;
+
+    z-index: 1000;
+
+}
+
+
+.studenthub-navbar .navbar-brand {
+
+    color: rgb(7, 60, 107);
+
+    font-weight: bold;
+
+}
+
+
+.studenthub-navbar a {
+
+    color: rgb(7, 60, 107);
+
+    text-decoration: none;
+
+}
+
+
+.studenthub-navbar a:hover {
+
+    color: #0d6efd;
+
+}
+
+
+/* ==============================
+   Dark Theme
+   ============================== */
+
+body.dark-mode {
+
+    background-color: #121212 !important;
+
+    color: #f1f1f1 !important;
+
+}
+
+
+/* Cards */
+
+body.dark-mode .card {
+
+    background-color: #1f1f1f !important;
+
+    color: #f1f1f1 !important;
+
+}
+
+
+/* Headings and Text */
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode label,
+body.dark-mode td,
+body.dark-mode th {
+
+    color: #f1f1f1 !important;
+
+}
+
+
+/* Muted Text */
+
+body.dark-mode .text-muted {
+
+    color: #bbbbbb !important;
+
+}
+
+
+/* Tables */
+
+body.dark-mode .table {
+
+    --bs-table-bg: #1f1f1f;
+
+    --bs-table-color: #f1f1f1;
+
+    --bs-table-border-color: #555;
+
+}
+
+
+body.dark-mode .table-light {
+
+    --bs-table-bg: #2b2b2b;
+
+    --bs-table-color: #f1f1f1;
+
+}
+
+
+/* Forms */
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+
+    background-color: #2b2b2b !important;
+
+    color: white !important;
+
+    border-color: #555 !important;
+
+}
+
+
+body.dark-mode .form-control::placeholder {
+
+    color: #bbbbbb;
+
+}
+
+
+body.dark-mode .form-select option {
+
+    background-color: #2b2b2b;
+
+    color: white;
+
+}
+
+
+/* Navbar */
+
+body.dark-mode .studenthub-navbar {
+
+    background-color: #1f1f1f;
+
+}
+
+
+body.dark-mode .studenthub-navbar .navbar-brand,
+body.dark-mode .studenthub-navbar a {
+
+    color: white;
+
+}
+
+
+/* Horizontal Lines */
+
+body.dark-mode hr {
+
+    border-color: #666;
+
+}
+
+
+/* ==============================
+   Theme Button
+   ============================== */
+
+#themeButton {
+
+    min-width: 130px;
+
+}
+
+
+/* ==============================
+   Notification Banner
+   ============================== */
+
+.studenthub-notification {
+
+    margin: 15px auto;
+
+    max-width: 1000px;
+
+}
+
+
+/* ==============================
+   FAQ
+   ============================== */
+
+.faq-question {
+
+    cursor: pointer;
+
+    background-color: #f8f9fa;
+
+    padding: 15px;
+
+    border: 1px solid #dee2e6;
+
+    font-weight: bold;
+
+}
+
+
+.faq-answer {
+
+    display: none;
+
+    padding: 15px;
+
+    border: 1px solid #dee2e6;
+
+    border-top: none;
+
+    background-color: white;
+
+}
+
+
+.faq-answer.show {
+
+    display: block;
+
+}
+
+
+/* FAQ Dark Theme */
+
+body.dark-mode .faq-question {
+
+    background-color: #2b2b2b;
+
+    color: white;
+
+    border-color: #555;
+
+}
+
+
+body.dark-mode .faq-answer {
+
+    background-color: #1f1f1f;
+
+    color: white;
+
+    border-color: #555;
+
+}
+
+
+/* ==============================
+   Content Slider
+   ============================== */
+
+.studenthub-slider {
+
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 25px;
+
+}
+
+
+.slider-content {
+
+    display: none;
+
+    padding: 35px;
+
+    text-align: center;
+
+    background-color: #f8f9fa;
+
+    border-radius: 10px;
+
+}
+
+
+.slider-content.active {
+
+    display: block;
+
+}
+
+
+/* Slider Dark Theme */
+
+body.dark-mode .slider-content {
+
+    background-color: #2b2b2b;
+
+    color: white;
+
+}
+
+
+/* ==============================
+   Modal Popup
+   ============================== */
+
+.modal {
+
+    display: none;
+
+}
+
+
+.modal.show {
+
+    display: block;
+
+}
+
+
+/* ==============================
+   Notification
+   ============================== */
+
+.notification {
+
+    display: none;
+
+}
+
+
+.notification.show {
+
+    display: block;
+
+}
+
+
+/* ==============================
+   Registration Page
+   ============================== */
+
+.registration-page {
+
+    background-color: rgb(7, 60, 107);
+
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+}
+
+
+.registration-card {
+
+    max-width: 850px;
+
+    border-radius: 12px;
+
+}
+
+
+.registration-page .studenthub-title {
+
+    color: rgb(7, 60, 107);
+
+}
+
+
+.registration-page .form-control,
+.registration-page .form-select {
+
+    border-radius: 6px;
+
+}
+
+
+.registration-page .form-control:focus,
+.registration-page .form-select:focus {
+
+    border-color: #2F80ED;
+
+    box-shadow: 0 0 0 0.2rem rgba(47, 128, 237, 0.15);
+
+}
+
+
+.required {
+
+    color: red;
+
+}
+
+
+.error-message {
+
+    color: #dc3545;
+
+    font-size: 14px;
+
+    display: block;
+
+    margin-top: 5px;
+
+    min-height: 18px;
+
+}
+
+
+.success-message {
+
+    color: #198754;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-top: 15px;
+
+}
+
+
+/* Registration Dark Theme */
+
+body.dark-mode.registration-page {
+
+    background-color: #121212 !important;
+
+}
+
+
+body.dark-mode .registration-card {
+
+    background-color: #1f1f1f !important;
+
+    color: #f1f1f1 !important;
+
+}
+
+
+body.dark-mode .registration-page .studenthub-title {
+
+    color: #2F80ED !important;
+
+}
+
+
+body.dark-mode .registration-page .form-control,
+body.dark-mode .registration-page .form-select {
+
+    background-color: #2b2b2b !important;
+
+    color: white !important;
+
+    border-color: #555 !important;
+
+}
+
+
+body.dark-mode .registration-page .form-control::placeholder {
+
+    color: #bbbbbb;
+
+}
+
+
+body.dark-mode .registration-page .form-select option {
+
+    background-color: #2b2b2b;
+
+    color: white;
+
+}
+
+
+/* Registration Theme Button */
+
+body.dark-mode.registration-page #themeButton {
+
+    color: white;
+
+    border-color: white;
+
+}
+
+
+/* ==============================
+   Mobile
+   ============================== */
+
+@media (max-width: 768px) {
+
+    .studenthub-navbar {
+
+        padding: 10px;
+
+    }
+
+
+    .studenthub-navbar .menu-links {
+
+        display: none;
+
+        flex-direction: column;
+
+        width: 100%;
+
+        margin-top: 10px;
+
+    }
+
+
+    .studenthub-navbar .menu-links.show {
+
+        display: flex;
+
+    }
+
+
+    .studenthub-navbar .menu-links a {
+
+        padding: 10px;
+
+        border-top: 1px solid #ddd;
+
+    }
+
+
+    .slider-content {
+
+        padding: 20px;
+
+    }
+
+
+    #themeButton {
+
+        min-width: auto;
+
+    }
+
+
+    .registration-page {
+
+        padding: 10px;
+
+    }
+
+
+    .registration-card {
+
+        width: 100%;
+
+    }
+
+
+    .registration-page .card-body {
+
+        padding: 25px 20px !important;
+
+    }
+
+}
