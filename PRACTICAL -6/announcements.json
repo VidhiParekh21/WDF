@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "title": "Annual Tech Fest Registration Open",
+        "category": "Event",
+        "date": "2026-07-20",
+        "description": "Registration for the Annual Tech Fest is now open."
+    },
+    {
+        "id": 2,
+        "title": "Programming Assignment 1 Uploaded",
+        "category": "Academic",
+        "date": "2026-07-22",
+        "description": "Programming Assignment 1 has been uploaded."
+    },
+    {
+        "id": 3,
+        "title": "Guest Lecture on Artificial Intelligence",
+        "category": "Event",
+        "date": "2026-07-25",
+        "description": "Guest Lecture on Artificial Intelligence will be conducted at 11:00 AM."
+    },
+    {
+        "id": 4,
+        "title": "Library Maintenance",
+        "category": "General",
+        "date": "2026-07-28",
+        "description": "Library will remain closed due to maintenance."
+    },
+    {
+        "id": 5,
+        "title": "Internal Examination Timetable Published",
+        "category": "Examination",
+        "date": "2026-08-01",
+        "description": "The Internal Examination timetable has been published."
+    },
+    {
+        "id": 6,
+        "title": "ID Card Required During Examinations",
+        "category": "Examination",
+        "date": "2026-08-05",
+        "description": "Students must carry their ID cards during examinations."
+    },
+    {
+        "id": 7,
+        "title": "College Holiday Announcement",
+        "category": "Holiday",
+        "date": "2026-08-10",
+        "description": "College will remain closed on account of a public holiday."
+    },
+    {
+        "id": 8,
+        "title": "Web Development Workshop",
+        "category": "Workshop",
+        "date": "2026-08-12",
+        "description": "A practical workshop on modern web development will be conducted."
+    },
+    {
+        "id": 9,
+        "title": "Project Submission Deadline",
+        "category": "Academic",
+        "date": "2026-08-15",
+        "description": "Students must submit their project reports before the deadline."
+    },
+    {
+        "id": 10,
+        "title": "Cyber Security Awareness Seminar",
+        "category": "Seminar",
+        "date": "2026-08-18",
+        "description": "A seminar on cyber security awareness will be organized for students."
+    },
+    {
+        "id": 11,
+        "title": "Sports Day Registration",
+        "category": "Event",
+        "date": "2026-08-20",
+        "description": "Students can register for different Sports Day activities."
+    },
+    {
+        "id": 12,
+        "title": "Semester Notes Available",
+        "category": "Academic",
+        "date": "2026-08-22",
+        "description": "Important semester notes are now available for students."
+    }
+]
